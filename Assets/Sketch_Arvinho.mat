@@ -25,7 +25,6 @@ Material:
   - _USEPURESKETCH_ON
   - _USESCREENUVSSPECULAR_ON
   - _USESCREENUVSWARP_ON
-  - _USESCREENUVS_ON
   - _USESPECULAR_ON
   m_InvalidKeywords:
   - _USEDIFFUSEWARP_ON
@@ -67,11 +66,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Hatch1:
-        m_Texture: {fileID: 2800000, guid: c8c08d397a648314480e236c16a2d39e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8f3922a6db23d09448344e2e8b75b2c9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Hatch2:
-        m_Texture: {fileID: 2800000, guid: 92a9365c9601d7d4abdcb699c767f3ef, type: 3}
+        m_Texture: {fileID: 2800000, guid: 73a9d9597bf137c45a33c3b3dd631a90, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightRampTexture:
@@ -128,9 +127,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AdaptiveThicnkess: 0.118
+    - _AdaptiveThicnkess: 0.488
     - _AdditionalLightsAmount: 0
-    - _AdditionalLightsFaloff: 0.438
+    - _AdditionalLightsFaloff: 0
     - _AdditionalLightsIntesity: 3.6
     - _AdditionalLightsSmoothnessMultiplier: 1.302
     - _AlphaClip: 0
@@ -143,7 +142,7 @@ Material:
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Darken: 0.191
+    - _Darken: 0.14
     - _DiffusePosterizeOffset: -0.459
     - _DiffusePosterizePower: 3
     - _DiffusePosterizeSteps: 3.08
@@ -163,11 +162,11 @@ Material:
     - _HalftoneThreshold: 0.077
     - _HalftoneToonAffect: 0
     - _HaltonePatternSize: 0
-    - _IndirectLightAffectOnHatch: 0
+    - _IndirectLightAffectOnHatch: 0.066
     - _IndirectLightStrength: 0
     - _InverseMask: 0
-    - _LightRampOffset: 0
-    - _Lighten: 0.725
+    - _LightRampOffset: -1
+    - _Lighten: 0.5
     - _LocalShift: 0
     - _LocalShiftStrength: 1
     - _MainLightIntesity: 4.04
@@ -175,15 +174,15 @@ Material:
     - _Metallic: 0
     - _NormalMapStrength: 1
     - _OcclusionStrength: 1
-    - _OutlineDynamicSpeed: 0.0078
-    - _OutlineNoiseIntesity: 0.32
+    - _OutlineDynamicSpeed: 0.0086
+    - _OutlineNoiseIntesity: 0.61
     - _OutlineNoiseScale: 32.7
     - _OutlineTextureStrength: 0
     - _OutlineType: 0
     - _OverlayMode: 2
     - _OverlayMode1: 0
-    - _OverlayRotation: 4.2
-    - _OverlayUVTilling: 5.56
+    - _OverlayRotation: 0
+    - _OverlayUVTilling: 46.7
     - _PaperTilling: 8.16
     - _PrimaryIntensity: 1
     - _PrimaryPower: 0.46
@@ -221,11 +220,11 @@ Material:
     - _StepOffset: 0
     - _Strength: 0.276
     - _Surface: 0
-    - _Thicnkess: 0.0649
+    - _Thicnkess: 0.0426
     - _UVAnimationSpeed: 0
     - _UVAnimationSpeedSpec: 0
     - _UVAnimationSpeedWarp: 0
-    - _UVScrollSpeed: 0
+    - _UVScrollSpeed: 1.75
     - _UVScrollSpeedSpec: 0
     - _UVScrollSpeedWarp: 0
     - _UVSrcrollAngle: 0
@@ -248,7 +247,7 @@ Material:
     - _UseOutline: 1
     - _UsePureSketch: 1
     - _UseRimLight: 0
-    - _UseScreenUvs: 1
+    - _UseScreenUvs: 0
     - _UseScreenUvsSpecular: 1
     - _UseScreenUvsWarp: 1
     - _UseShadows: 1
