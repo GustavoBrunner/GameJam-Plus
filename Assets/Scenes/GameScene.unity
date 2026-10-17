@@ -540,6 +540,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128461792}
   m_CullTransparentMesh: 1
+--- !u!1001 &203060458
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fb4447cca71a2a741bbe94d59762e0ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb4447cca71a2a741bbe94d59762e0ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.188402
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb4447cca71a2a741bbe94d59762e0ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.7569766
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb4447cca71a2a741bbe94d59762e0ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb4447cca71a2a741bbe94d59762e0ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb4447cca71a2a741bbe94d59762e0ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb4447cca71a2a741bbe94d59762e0ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb4447cca71a2a741bbe94d59762e0ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb4447cca71a2a741bbe94d59762e0ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb4447cca71a2a741bbe94d59762e0ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: fb4447cca71a2a741bbe94d59762e0ac, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a276fbdbf5f73242818b23706109dda, type: 2}
+    - target: {fileID: 919132149155446097, guid: fb4447cca71a2a741bbe94d59762e0ac, type: 3}
+      propertyPath: m_Name
+      value: TrainSEMIFINALIZEDWITHOUTPPPPPARTY
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fb4447cca71a2a741bbe94d59762e0ac, type: 3}
 --- !u!1 &218024433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1484,7 +1545,7 @@ Transform:
   m_GameObject: {fileID: 611239125}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.09, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1674,34 +1735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Bla bla bla bla bla bla bla
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &809916288
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 809916282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 4
-  indentLevel: 1
-  storyText: "Que vontade de dar um beij\xE3o naquele mano"
+  storyText: A cigarette butt, where is the ashtray...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1957,30 +1991,9 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &809916290
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 809916282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 5
-  indentLevel: 0
-  targetFlowchart: {fileID: 339537941}
-  targetBlock: {fileID: 339537942}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &809916291
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1992,6 +2005,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
+--- !u!114 &809916294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809916282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 7
+  indentLevel: 1
+  description: 
+  targetObject: {fileID: 1336709668}
+  targetComponentAssemblyName: GameController, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: GameController
+  targetMethod: AddNewInteraction
+  targetMethodText: 'AddNewInteraction (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 1
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &809916295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809916282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 0
+  targetFlowchart: {fileID: 339537941}
+  targetBlock: {fileID: 339537942}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &873322882
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,6 +3006,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 945258192993795769, guid: 61cdad60c4aac8c41846b976f662ad05, type: 3}
   m_PrefabInstance: {fileID: 339537939}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1336709668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4476781936112967064, guid: c4ec9390ae79fa0448a9c1ba08e2d42c, type: 3}
+  m_PrefabInstance: {fileID: 2911279874505402664}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1346912557
 GameObject:
   m_ObjectHideFlags: 0
@@ -3250,7 +3334,7 @@ PrefabInstance:
     - target: {fileID: 3522724193926995273, guid: cb00b3ee425daa54aaeff744ad8f4b3b, type: 3}
       propertyPath: 'selectedCommands.Array.data[0]'
       value: 
-      objectReference: {fileID: 809916291}
+      objectReference: {fileID: 809916295}
     - target: {fileID: 4802931935024773388, guid: cb00b3ee425daa54aaeff744ad8f4b3b, type: 3}
       propertyPath: blockName
       value: StartInteraction
@@ -3278,7 +3362,7 @@ PrefabInstance:
     - target: {fileID: 4802931935024773388, guid: cb00b3ee425daa54aaeff744ad8f4b3b, type: 3}
       propertyPath: 'commandList.Array.data[3]'
       value: 
-      objectReference: {fileID: 809916288}
+      objectReference: {fileID: 809916294}
     - target: {fileID: 4802931935024773388, guid: cb00b3ee425daa54aaeff744ad8f4b3b, type: 3}
       propertyPath: 'commandList.Array.data[4]'
       value: 
@@ -3286,7 +3370,7 @@ PrefabInstance:
     - target: {fileID: 4802931935024773388, guid: cb00b3ee425daa54aaeff744ad8f4b3b, type: 3}
       propertyPath: 'commandList.Array.data[5]'
       value: 
-      objectReference: {fileID: 809916290}
+      objectReference: {fileID: 809916295}
     - target: {fileID: 8112121925485822635, guid: cb00b3ee425daa54aaeff744ad8f4b3b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3346,13 +3430,13 @@ PrefabInstance:
       addedObject: {fileID: 809916289}
     - targetCorrespondingSourceObject: {fileID: 1571908715154822983, guid: cb00b3ee425daa54aaeff744ad8f4b3b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 809916288}
-    - targetCorrespondingSourceObject: {fileID: 1571908715154822983, guid: cb00b3ee425daa54aaeff744ad8f4b3b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 809916290}
-    - targetCorrespondingSourceObject: {fileID: 1571908715154822983, guid: cb00b3ee425daa54aaeff744ad8f4b3b, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 809916291}
+    - targetCorrespondingSourceObject: {fileID: 1571908715154822983, guid: cb00b3ee425daa54aaeff744ad8f4b3b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 809916294}
+    - targetCorrespondingSourceObject: {fileID: 1571908715154822983, guid: cb00b3ee425daa54aaeff744ad8f4b3b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 809916295}
   m_SourcePrefab: {fileID: 100100000, guid: cb00b3ee425daa54aaeff744ad8f4b3b, type: 3}
 --- !u!1 &1386499400
 GameObject:
@@ -3749,6 +3833,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Train
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b0c289ef787c32e4386b8d623b0f426d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3816,8 +3904,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428743258}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.90122837, z: 0, w: 0.4333445}
-  m_LocalPosition: {x: -5.56, y: 1.1, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.36, y: 1.12, z: -3.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3825,7 +3913,7 @@ Transform:
   - {fileID: 1615455511}
   - {fileID: 452168679}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -128.64, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1512679214
 GameObject:
   m_ObjectHideFlags: 0
@@ -3959,20 +4047,16 @@ GameObject:
   - component: {fileID: 1615455512}
   - component: {fileID: 1615455522}
   - component: {fileID: 1615455521}
-  - component: {fileID: 1615455518}
-  - component: {fileID: 1615455519}
   - component: {fileID: 1615455514}
-  - component: {fileID: 1615455520}
   - component: {fileID: 1615455517}
   - component: {fileID: 1615455516}
-  - component: {fileID: 1615455515}
-  - component: {fileID: 1615455513}
   - component: {fileID: 1615455526}
   - component: {fileID: 1615455525}
-  - component: {fileID: 1615455524}
   - component: {fileID: 1615455523}
   - component: {fileID: 1615455528}
   - component: {fileID: 1615455527}
+  - component: {fileID: 1615455529}
+  - component: {fileID: 1615455530}
   m_Layer: 0
   m_Name: Flowchart - Raimundo
   m_TagString: Untagged
@@ -3993,7 +4077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 461.30975, y: -31.237623}
+  scrollPos: {x: 553.49725, y: 42.199844}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -4005,9 +4089,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1615455510}
+  - {fileID: 1615455514}
   selectedCommands:
-  - {fileID: 1615455526}
+  - {fileID: 1615455530}
   variables:
   - {fileID: 1615455512}
   description: 'Npc 1 Interactions chart
@@ -4049,11 +4133,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 1615455522}
   - {fileID: 1615455521}
-  - {fileID: 1615455518}
   - {fileID: 1615455517}
   - {fileID: 1615455516}
-  - {fileID: 1615455515}
-  - {fileID: 1615455513}
   - {fileID: 1615455525}
   - {fileID: 1615455526}
   suppressAllAutoSelections: 0
@@ -4085,33 +4166,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 1
-  key: TestObjectInteracted
+  key: IsAshtrayInterected
   value: 0
---- !u!114 &1615455513
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1615455507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 9
-  indentLevel: 1
-  text: Beijar a boca dele
-  description: 
-  targetBlock: {fileID: 1615455514}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &1615455514
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4126,33 +4182,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 98.74618
-    y: 224.5188
-    width: 84.42
+    x: -121.56627
+    y: 215.1438
+    width: 130.53
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 10
-  blockName: "Beij\xE3o"
+  blockName: DoYouSmoke?
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1615455529}
+  - {fileID: 1615455530}
   - {fileID: 1615455523}
   suppressAllAutoSelections: 0
---- !u!114 &1615455515
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1615455507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 8
-  indentLevel: 0
 --- !u!114 &1615455516
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4167,7 +4211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 1
-  text: Beijar a boca dele
+  text: You smoke, Mr. Raimundo?
   description: 
   targetBlock: {fileID: 1615455514}
   hideIfVisited: 0
@@ -4421,86 +4465,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &1615455518
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1615455507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3
-  indentLevel: 0
-  text: "Dar um soc\xE3o"
-  description: 
-  targetBlock: {fileID: 1615455519}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &1615455519
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1615455507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: -206.62242
-    y: 226.55
-    width: 93.95
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 4
-  blockName: Agrediu
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1615455520}
-  - {fileID: 1615455524}
-  suppressAllAutoSelections: 0
---- !u!114 &1615455520
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1615455507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 5
-  indentLevel: 0
-  storyText: Filho da puta
-  description: 
-  character: {fileID: 1782044996}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 1409442454}
 --- !u!114 &1615455521
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4515,9 +4479,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: Como posso ajudar?
+  storyText: How can I help you?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1782044996}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4542,10 +4506,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "Ol\xE1, meu nome \xE9 Fulano!"
+  storyText: Hey, my name is Raimundo. People call me Mister Raimundo.
   description: 
   character: {fileID: 1782044996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e0a5c844b19658243a8be59550c8370f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4568,27 +4532,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 18
-  indentLevel: 0
-  targetFlowchart: {fileID: 339537941}
-  targetBlock: {fileID: 339537942}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &1615455524
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1615455507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 17
   indentLevel: 0
   targetFlowchart: {fileID: 339537941}
   targetBlock: {fileID: 339537942}
@@ -4684,6 +4627,78 @@ MonoBehaviour:
   commandList:
   - {fileID: 1615455527}
   suppressAllAutoSelections: 0
+--- !u!114 &1615455529
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615455507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  storyText: Only a cigarette when I'm stressed out, yes?
+  description: 
+  character: {fileID: 1782044996}
+  portrait: {fileID: 21300000, guid: e0a5c844b19658243a8be59550c8370f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1615455530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615455507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1336709668}
+  targetComponentAssemblyName: GameController, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: GameController
+  targetMethod: AddNewInteraction
+  targetMethodText: 'AddNewInteraction (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: -1
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!1 &1761912150
 GameObject:
   m_ObjectHideFlags: 0
@@ -5040,7 +5055,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3572458217204821729, guid: c4ec9390ae79fa0448a9c1ba08e2d42c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.44
       objectReference: {fileID: 0}
     - target: {fileID: 3572458217204821729, guid: c4ec9390ae79fa0448a9c1ba08e2d42c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5102,3 +5117,4 @@ SceneRoots:
   - {fileID: 1419759618}
   - {fileID: 611239126}
   - {fileID: 1600529568}
+  - {fileID: 203060458}
