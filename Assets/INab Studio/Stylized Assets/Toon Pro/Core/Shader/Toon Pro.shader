@@ -93,7 +93,7 @@ Shader "Stylized Toon"
 		_UVSrcrollAngle("UV Scroll Angle", Range( 0 , 360)) = 0
 		_UVSrcrollAngleWarp("UV Scroll Angle", Range( 0 , 360)) = 0
 		_UVScrollSpeedWarp("UV Scroll Speed", Range( 0 , 0.1)) = 0
-		_UVScrollSpeed("UV Scroll Speed", Range( 0 , 0.1)) = 0
+		_UVScrollSpeed("UV Scroll Speed", Range( 0 , 100)) = 0
 		_UVScrollSpeedSpec("UV Scroll Speed", Range( 0 , 0.1)) = 0
 		_DiffusePosterizeSteps("Posterize Steps", Range( 1 , 10)) = 3
 		_DiffusePosterizePower("Posterize Power", Range( 0.5 , 3)) = 1
@@ -1439,7 +1439,7 @@ Shader "Stylized Toon"
 				float3 break3_g209 = CompleteDiffuseLight965.xyz;
 				float smoothstepResult525 = smoothstep( _HalftoneEdgeOffset , ( _HalftoneEdgeOffset + _HalftoneSmoothness ) , max( max( break3_g209.x , break3_g209.y ) , break3_g209.z ));
 				float2 temp_cast_26 = (_OverlayUVTilling).xx;
-				float mulTime1287 = _TimeParameters.x * _UVScrollSpeed;
+				float mulTime1287 = floor(_TimeParameters.x * _UVScrollSpeed) * 5.2;
 				float temp_output_1293_0 = radians( _UVSrcrollAngle );
 				float2 appendResult1294 = (float2(cos( temp_output_1293_0 ) , sin( temp_output_1293_0 )));
 				float2 temp_output_1288_0 = ( mulTime1287 * appendResult1294 );
