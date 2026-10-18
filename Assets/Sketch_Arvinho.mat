@@ -20,6 +20,7 @@ Material:
   - _USEADAPTIVEUVSSPECULAR_ON
   - _USEADDITIONALLIGHTSDIFFUSE_ON
   - _USEDYNAMICOUTLINE_ON
+  - _USEHATCHINGCONSTANTSCALE_ON
   - _USELIGHTRAMP_DIFFUSERAMP
   - _USEOUTLINE_ON
   - _USEPURESKETCH_ON
@@ -142,7 +143,7 @@ Material:
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Darken: 0.14
+    - _Darken: 0.15
     - _DiffusePosterizeOffset: -0.459
     - _DiffusePosterizePower: 3
     - _DiffusePosterizeSteps: 3.08
@@ -182,7 +183,7 @@ Material:
     - _OverlayMode: 2
     - _OverlayMode1: 0
     - _OverlayRotation: 13.6
-    - _OverlayUVTilling: 51.78
+    - _OverlayUVTilling: 50
     - _PaperTilling: 8.16
     - _PrimaryIntensity: 1
     - _PrimaryPower: 0.46
@@ -242,7 +243,7 @@ Material:
     - _UseEnvironmentRefletion: 0
     - _UseHairSpecular: 0
     - _UseHairSpecularMask: 0
-    - _UseHatchingConstantScale: 0
+    - _UseHatchingConstantScale: 1
     - _UseLightRamp: 1
     - _UseOutline: 1
     - _UsePureSketch: 1
