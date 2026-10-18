@@ -40,7 +40,7 @@ Shader "Stylized Toon"
 		_SpecularPosterizeSteps("Specular Posterize Steps", Range( 0 , 15)) = 0
 		_OutlineNoiseScale("Outline Noise Scale", Float) = 10
 		_OutlineNoiseIntesity("Outline Noise Intensity", Range( 0 , 2)) = 1
-		_OutlineDynamicSpeed("Outline Dynamic Speed", Range( 0 , 0.05)) = 0
+		_OutlineDynamicSpeed("Outline Dynamic Speed", Range( 0 , 0.05)) = 0 
 		[Toggle(_USEDYNAMICOUTLINE_ON)] _UseDynamicOutline("Use Sketch Outline", Float) = 0
 		[Toggle(_USEENVIRONMENTREFLETION_ON)] _UseEnvironmentRefletion("UseEnvironment Reflections", Float) = 0
 		_Strength("Strength", Range( 0 , 1)) = 0
