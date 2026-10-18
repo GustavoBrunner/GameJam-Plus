@@ -70,7 +70,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Hatch2:
-        m_Texture: {fileID: 2800000, guid: c863cdedc7b4c3b468764ee7de86e3a1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 73a9d9597bf137c45a33c3b3dd631a90, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightRampTexture:
@@ -174,15 +174,15 @@ Material:
     - _Metallic: 0
     - _NormalMapStrength: 1
     - _OcclusionStrength: 1
-    - _OutlineDynamicSpeed: 0.0065
+    - _OutlineDynamicSpeed: 0.01
     - _OutlineNoiseIntesity: 0.86
     - _OutlineNoiseScale: 32.7
     - _OutlineTextureStrength: 0
     - _OutlineType: 0
     - _OverlayMode: 2
     - _OverlayMode1: 0
-    - _OverlayRotation: 0
-    - _OverlayUVTilling: 46.7
+    - _OverlayRotation: 13.6
+    - _OverlayUVTilling: 51.78
     - _PaperTilling: 8.16
     - _PrimaryIntensity: 1
     - _PrimaryPower: 0.46
@@ -224,10 +224,10 @@ Material:
     - _UVAnimationSpeed: 0
     - _UVAnimationSpeedSpec: 0
     - _UVAnimationSpeedWarp: 0
-    - _UVScrollSpeed: 1.75
+    - _UVScrollSpeed: 3
     - _UVScrollSpeedSpec: 0
     - _UVScrollSpeedWarp: 0
-    - _UVSrcrollAngle: 0
+    - _UVSrcrollAngle: 34
     - _UVSrcrollAngleSpec: 0
     - _UVSrcrollAngleWarp: 0
     - _UseAdaptiveScreenUvs: 0
