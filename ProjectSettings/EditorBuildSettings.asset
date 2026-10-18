@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 7e82745277a5dce418f907f03785244b
+  - enabled: 1
     path: Assets/Scenes/arvinho.unity
     guid: e10286b5b18b07f4591cad96e8c3b2cc
   m_configObjects:
