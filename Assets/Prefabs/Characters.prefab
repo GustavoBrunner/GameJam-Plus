@@ -48,7 +48,7 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 87c302b4f2e3cc74791840dea9804f31, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -100,7 +100,7 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 0}
+  - {fileID: 21300000, guid: ad82cd2ae159be84ab02d89be6a8dd3a, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -152,7 +152,7 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: ddebf4c4576313e4bae984d3f2ff18a8, type: 3}
+  - {fileID: 21300000, guid: 8fda7658aec87664488e7a8f76b85528, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -294,7 +294,7 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 1b4a76cc4c552984cb9f11c1577c943b, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -345,7 +345,8 @@ MonoBehaviour:
   nameText: Character Name
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: e5e94a036fe98d748a0c2351c538ff3e, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 

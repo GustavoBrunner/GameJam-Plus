@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfa6f35c393c4e444bb679ee8fe12864, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RayDistance: 3
+  m_RayDistance: 5
   m_CamPosition: {fileID: 4457075199720499224}
 --- !u!135 &2832850566552703938
 SphereCollider:
